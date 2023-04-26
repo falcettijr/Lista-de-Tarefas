@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css
     ">
 </head>
+
 <body>
-    <div>
-        <h1>Lista de Tarefas</h1>
-    </div>
-    <script src="script.js"></script>
+    <h1>Lista de Tarefas</h1>
+    <header>
+        <input id="inputTarefa" type="text" placeholder="Digite sua tarefa">
+        <button id="btn-add" class="add" onclick="addTarefa()">Adicionar</button>
+    </header>
+    <main id="areaLista">
+    </main>
+     <script src="script.js"></script>
 </body>
 </html>
