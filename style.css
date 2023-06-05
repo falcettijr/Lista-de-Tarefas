@@ -1,8 +1,9 @@
 :root{
-    --background-clara: #7da2d6;
-    --background-escura: #466085;
+    --background-clara: #000000;
+    --background-escura: #2F4353;
     --font-destaque: #FCC456;
     --font-conteudo: lightgrey;
+    --font-azul: #004AAD
     --background-card: #1C2128;
     --cor-linha: #404040;
  }
@@ -15,25 +16,33 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to bottom left,var(--background-clara), var(--background-escura));
+    background: #2F4353;
     height: 100vh;
    }
 
+.app{
+    border: 1px solid var(--font-destaque);
+    margin: 100px 500px;
+    border-radius: 10px;
+}   
+
 h1{
     text-align: center;
-    font-size: 2rem;
+    color: var(--font-destaque);
+    font-size: 3rem;
+    margin-bottom: 80px;
 }
 
 header{
     display: flex;
     flex-flow: row wrap;
-    width: 90%;
+    width: 50%;
     margin: auto auto
 }
 
 input{
-    height: 120px;
-    font-size: 3rem;
+    height: 60px;
+    font-size: 2rem;
     width: 80%;
     padding-left:10%;
     border-top-left-radius: 10px;
@@ -42,10 +51,10 @@ input{
 button.add{
     width: 20%;
     cursor: pointer;
-    background-color:  green;
+    background-color:  rgb(76, 175, 76);
     color: white;
     border: none;
-    height: 120px;
+    height: 60px;
     font-weight: bold;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -54,9 +63,9 @@ button.add{
 main {
     display: flex;
     flex-flow: row wrap;
-    width: 90%;
-    margin: auto auto;
-    padding-top: 40px;
+    width: 50%;
+    margin: 50px auto;
+
 }
 
 .item{
@@ -66,15 +75,15 @@ main {
     align-items: center;
     background: white;
     border-radius: 10px;
-    height: 80px;
+    height: 60px;
     width: 100%;
-    box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 5px #ccc;
     margin-bottom: 2%;
     cursor: pointer;
 }
 
 .item.clicado{
-    background: #d4f6d9
+    background: rgb(207, 204, 204);
 }
 
 .item.clicado .item-nome{
@@ -99,11 +108,11 @@ main {
 }
 
 .delete{
-    background: red;
+    background: rgb(187, 52, 52);
     border: none;
-    padding: 10px;
-    height: 80px;
-    width:100%;
+    color: white;
+    height: 60px;
+    width: 100%;
     font-weight: bold;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -111,5 +120,5 @@ main {
 }
 
 .mdi-check-circle{
-    color: green;
+    color: rgb(76, 175, 76);;
 }

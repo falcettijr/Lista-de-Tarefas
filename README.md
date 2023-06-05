@@ -32,7 +32,7 @@ Para utilizar a lista de tarefas, siga as instruções abaixo:
 Exemplo de Uso
 --------------
 
-![imagem do carrinho de compras](carrinhoScreenshot2.png#vitrinedev)
+![Screenshot Lista de Tarefas](screenshot.png#vitrinedev)
 
 Contribuições
 -------------
